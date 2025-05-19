@@ -9,6 +9,7 @@ import Home from './components/Home/Home.jsx';
 import Interviewer from './components/Interviewer/Interviewer.jsx';
 import Login from './components/Login/Login.jsx';
 import Resources from './components/Resources/Resources.jsx';
+import Signup from './components/Sigup/Signup.jsx';
 // Define router
 const router = createBrowserRouter([
   {
@@ -34,6 +35,10 @@ const router = createBrowserRouter([
       {
         path:'resources',
         element: <Resources/>
+      },
+      {
+        path:'signup',
+        element: <Signup/>
       }
 
     ],
